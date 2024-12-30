@@ -1,6 +1,7 @@
-# Internal Docs Template
+# Cloud Run and Identity Aware Proxy
 
-This repository is a minimal template to host internal documents with Cloud Run, Identity Aware Proxy, and MkDocs.
+This repository is a minimal template of Cloud Run and Identity Aware Proxy.
+In this template, we host a static HTML generated with [MkDocs](https://www.mkdocs.org/).
 
 ## 1. OAuth 2.0
 
