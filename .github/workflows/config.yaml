@@ -30,8 +30,8 @@ jobs:
       #     username: oauth2accesstoken
       #     password: ${{ steps.auth.outputs.access_token }}
 
-      - name: Build Docker image
-        run: make docker-build CONFIG=config.mk
+      # - name: Build Docker image
+      #   run: make docker-build CONFIG=config.mk
 
       # - name: Push Docker image
       #   run: make docker-push CONFIG=config.mk
