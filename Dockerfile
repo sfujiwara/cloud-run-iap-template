@@ -4,7 +4,7 @@ WORKDIR /workdir
 
 RUN pip install mkdocs mkdocs-material mkdocs-with-pdf
 
-COPY mkdocs.yml mkdocs.yml
+COPY mkdocs.yaml mkdocs.yaml
 COPY docs docs
 
 RUN mkdocs build

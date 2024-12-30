@@ -30,6 +30,10 @@ terraform-apply: terraform-tfvars
 docker-build:
 	docker build -t $(DOCKER_IMAGE) .
 
+.PHONY: docker-push
+docker-push:
+	docker push $(DOCKER_IMAGE)
+
 .PHONY: docker-run
 docker-run:
 	docker run --rm -it -p 80:80 $(DOCKER_IMAGE)
